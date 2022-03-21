@@ -1,0 +1,14 @@
+main .hero
+{
+    grid-template-columns: minmax(300px,500px);
+    justify-content: center;
+}
+
+main .hero figure
+{
+    display: none;
+}
+main .dishes .dishes__grid
+{
+    grid-template-columns: repeat(auto-fit,minmax(75px,120px));
+}
